@@ -49,8 +49,8 @@ Example Checklist
 }
 ```
 ## Properties Explanation
-Work Item Types
-The root-level keys (e.g., "Defect", "Spike", "Story", "Epic") represent different types of work items.
+Value-Edge Work Item Types
+The root-level keys (e.g. "Defect", "Spike", "User Story", "Epic") represent different types of work items.
 
 ### Categories
 Logical groupings of related checklist items within a work item type. Categories help organize checklist items based on purpose or workflow stage.
@@ -61,4 +61,4 @@ An array of strings representing specific actions or requirements that must be c
 ### Phases
 Workflow stages during which the checklist applies. This maps checklist categories to relevant stages in the item’s lifecycle.
 
-We welcome contributions to expand and refine the collection of DoD checklists 😊."
+❤️ We welcome contributions to expand and refine the collection of DoD checklists 😊
