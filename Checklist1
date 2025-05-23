@@ -1,65 +1,43 @@
 {
-"Defect": {
-    "title": "Defect",
-    "categories": [
-      {
-        "name": "Investigation",
+  "Defect": {
+    "categories": {
+      "Reproduction": {
         "checklist": [
-          "Reproduce the issue",
-          "Gather logs and screenshots",
-          "Determine root cause",
-          "Document findings"
-        ]
+          "Steps to reproduce the issue are clearly documented",
+          "Actual vs expected behavior is described",
+          "Screenshots or logs are attached, if applicable"
+        ],
+        "phases": ["New", "In Progress"]
       },
-      {
-        "name": "Resolution",
+      "Resolution": {
         "checklist": [
-          "Implement fix",
-          "Run regression tests",
-          "Confirm issue resolution",
-          "Close defect after verification"
-        ]
+          "Root cause analysis is documented",
+          "Solution has been tested and verified",
+          "All relevant stakeholders are informed of the fix",
+          "Test cases are updated to cover the issue"
+        ],
+        "phases": ["Done", "Resolved"]
       }
-    ]
-},
-"Spike": {
-    "title": "Spike",
-    "categories": [
-      {
-        "name": "Exploration",
-        "checklist": [
-          "Identify technical questions"
-        ]
-      },
-      {
-        "name": "Conclusion",
-        "checklist": [
-          "Summarize findings",
-          "Present results to the team",
-          "Document next steps",
-          "Archive research notes"
-        ]
-      }
-    ]
+    }
   },
-  "CPE Incident": {
-    "title": "CPE Incident",
-    "categories": [
-      {
-        "name": "Exploration",
+  "Spike": {
+    "categories": {
+      "Planning": {
         "checklist": [
-          "Identify technical questions"
-        ]
+          "Objective of the spike is clearly defined",
+          "Expected deliverables are documented",
+          "Team has agreed on a timebox for the spike"
+        ],
+        "phases": ["New", "In Progress"]
       },
-      {
-        "name": "Conclusion",
+      "Analysis": {
         "checklist": [
-          "Summarize findings",
-          "Present results to the team",
-          "Document next steps",
-          "Archive research notes"
-        ]
+          "Relevant research and findings are documented",
+          "Any discovered blockers or risks are noted",
+          "Recommendations or next steps are provided"
+        ],
+        "phases": ["Done", "Resolved"]
       }
-    ]
+    }
   }
 }
