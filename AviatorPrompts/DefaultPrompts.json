@@ -361,7 +361,7 @@
                 "selector": "#issue-title"
             },
             {
-                "name": " description",
+                "name": " description",
                 "selector": "#issue-description"
             },
             {
