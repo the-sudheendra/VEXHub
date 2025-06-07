@@ -377,7 +377,7 @@
         "variables": [
             {
                 "name": "comments.all",
-                "selector": "#issue-comments"
+                "selector": "comment-lines"
             }
         ]
     }
