@@ -1,0 +1,11 @@
+{
+  "Concise": "Use a clear and direct tone. Avoid unnecessary details or fluff. Summarize the key points briefly and efficiently.",
+  "Technical": "Respond with precision and use appropriate engineering terminology. Ensure the explanation is thorough and suitable for a technical audience.",
+  "Non-Technical": "Explain the content in simple, easy-to-understand language. Avoid jargon and make it accessible for non-technical stakeholders like customers or product managers.",
+  "Action-Oriented": "Focus on actionable insights. Highlight clear next steps or recommended actions the user should take.",
+  "Formal": "Maintain a professional and polished tone. Use language appropriate for documentation, reports, or external communication.",
+  "Casual": "Use a relaxed and conversational tone, as if you're chatting with a teammate on Slack. Keep it friendly and informal.",
+  "Critical Thinking": "Approach the content analytically. Identify assumptions, risks, or missing information, and suggest areas that may need further clarification.",
+  "Support-Focused": "Write as if you're a customer support agent. Clearly explain the issue, provide guidance, and maintain a helpful and empathetic tone.",
+  "Bullet Points": "Present the response in a clean and organized bulleted list for easy scanning and readability."
+}
