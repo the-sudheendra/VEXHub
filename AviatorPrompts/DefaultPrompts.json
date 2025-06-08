@@ -1,6 +1,6 @@
 [
     {
-        "name": "Summarize Ticket for Standup",
+        "name": "Summarize Ticket for STANDUP",
         "description": "Generate a concise summary of the ticket suitable for a daily standup update.",
         "template": "Create a 2-3 sentence summary of this ticket that I can share during standup. Include current status, any blockers, and what I'm working on next:\nTitle: {{title}}\nDescription: {{description}}\nStatus: {{status}}",
         "variables": [
