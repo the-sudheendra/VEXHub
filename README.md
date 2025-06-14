@@ -52,7 +52,7 @@ This repository serves as a central hub for storing **checklists** and **prompts
     }
   ```
 ---
-#### [PromptTemplate Schema Explanation](https://github.com/the-sudheendra/VEXHub/blob/main/AviatorPrompts/AviatorPromptsTemplateSchema.md)
+#### [PromptTemplate Schema Explanation](https://github.com/the-sudheendra/VEXHub/blob/main/AviatorPrompts/PromptTemplateSchema.md)
 #### Example
 
 ```json
