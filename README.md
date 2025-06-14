@@ -4,36 +4,9 @@ This repository serves as a central hub for storing **checklists** and **prompts
 
 ---
 
-## Checklist Schema
-### Root Level: Work Item Types
-
-  - **Type:** `object`
-  - **Description:**  
-    The root-level keys (e.g., `"Defect"`, `"Spike"`, `"User Story"`, `"Epic"`) represent different types of work items in your workflow.  
-    Each key maps to an object describing the checklist structure for that work item type.
-  
-  ### `categories`
-  
-  - **Type:** `object`
-  - **Description:**  
-    Logical groupings of related checklist items within a work item type.  
-    Categories help organize checklist items based on their purpose or workflow stage (e.g., `"Reproduction"`, `"Resolution"`).
-  
-    #### Category Object Properties
-    
-    ##### **`checklist`**
-    - **Type:** `array` of strings
-    - **Description:**  
-      An array of specific actions or requirements that must be completed for a given category.  
-      Each string is a checklist item (e.g., `"Steps to reproduce the issue are clearly documented"`).
-    
-    ##### **`phases`**
-    - **Type:** `array` of strings
-    - **Description:**  
-      Workflow stages during which the checklist applies.  
-      This maps checklist categories to relevant stages in the item’s lifecycle (e.g., `["New", "In Progress"]`).
-    ### Checklist Schema Example
-    ```json
+#### [Checklist Schema Explanation](https://github.com/the-sudheendra/VEXHub/blob/main/Checklist/ChecklistSchema.md)
+#### Example
+```json
     {
       "Defect": {
         "categories": {
@@ -77,42 +50,10 @@ This repository serves as a central hub for storing **checklists** and **prompts
         }
       }
     }
-  
+  ```
 ---
-
-## Aviator Prompts Template Schema
-
-### Root Level
-
-- **Array of prompt Template Objects**  
-  Each object in the array represents a reusable template for generating content related to a ticket or work item.
-
-  ### Template Object Properties
-  
-  #### **`name`**
-  - **Type:** `string`
-  - **Description:**  
-    A short, descriptive label for the template.  
-    **Example:** `"Summarize Ticket for Standup"`
-  
-  #### **`description`**
-  - **Type:** `string`
-  - **Description:**  
-    Explains the purpose and function of the template.  
-    **Example:** `"Generate a concise summary of the ticket suitable for a daily standup update."`
-  
-  #### **`template`**
-  - **Type:** `string`
-  - **Description:**  
-    The text template containing placeholders (e.g., `{{title}}`, `{{description}}`) that will be filled with actual ticket data.
-    #### **`variables`**
-    - **Type:** `array` of objects
-    - **Description:**  
-    Lists all variables required by the template. Each variable object includes:
-    - **`name`**: The variable’s identifier, matching a placeholder in the template.
-    - **`selector`**: The Dom selector used to extract the variable’s value from the ValueEdge page.
-  
-### Aviator Prompts Template Example
+#### [PromptTemplate Schema Explanation](https://github.com/the-sudheendra/VEXHub/blob/main/AviatorPrompts/AviatorPromptsTemplateSchema.md)
+#### Example
 
 ```json
 [
@@ -152,6 +93,7 @@ This repository serves as a central hub for storing **checklists** and **prompts
   }
 ]
 ```
-
 ---
+
+
 ❤️ We welcome contributions to expand and refine the collection of checklists and promps 😊
