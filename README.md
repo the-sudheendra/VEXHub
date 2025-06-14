@@ -1,6 +1,6 @@
 # VEXtension Repository
 
-This repository serves as a central hub for storing **checklists** and **prompts** for **[VEXtenstion](https://github.com/the-sudheendra/VEXtenstion)** in JSON format. This allows for easy management and sharing across various projects and teams.
+This repository serves as a central hub for storing **checklists** and **prompts** for **[VEXtenstion](https://github.com/the-sudheendra/VEXtenstion)** in JSON format. This allows for easy management and sharing across various projects and teams 🔄.
 
 ---
 
