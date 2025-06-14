@@ -5,6 +5,7 @@ This repository serves as a central hub for storing **checklists** and **prompts
 ---
 
 #### [Checklist Schema Explanation](https://github.com/the-sudheendra/VEXHub/blob/main/Checklist/ChecklistSchema.md)
+#### [Starter Checklist](https://the-sudheendra.github.io/VEXHub/Checklist/DefaultChecklist.json)
 #### Example
 ```json
     {
@@ -53,6 +54,7 @@ This repository serves as a central hub for storing **checklists** and **prompts
   ```
 ---
 #### [PromptTemplate Schema Explanation](https://github.com/the-sudheendra/VEXHub/blob/main/AviatorPrompts/PromptTemplateSchema.md)
+#### [Starter Prompts](https://the-sudheendra.github.io/VEXHub/AviatorPrompts/DefaultPrompts.json)
 #### Example
 
 ```json
