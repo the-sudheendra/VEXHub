@@ -6,15 +6,15 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             },
             {
                 "name": "status",
-                "selector": "[data-aid='entity-life-cycle-widget-phase']"
+                "selector": "#status"
             }
         ]
     },
@@ -25,11 +25,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -40,11 +40,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -77,11 +77,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -92,11 +92,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -107,11 +107,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -122,11 +122,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -137,11 +137,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -152,11 +152,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -167,11 +167,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             },
             {
                 "name": "comments",
@@ -186,11 +186,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -201,7 +201,7 @@
         "variables": [
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -212,11 +212,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -227,11 +227,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -242,11 +242,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -257,11 +257,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -272,7 +272,7 @@
         "variables": [
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
@@ -294,11 +294,11 @@
         "variables": [
             {
                 "name": "title",
-                "selector": ".entity-form-document-view-header-name-field-container"
+                "selector": "#title"
             },
             {
                 "name": "description",
-                "selector": "[aria-label='Description textbox']"
+                "selector": "#description"
             }
         ]
     },
