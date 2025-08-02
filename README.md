@@ -97,5 +97,8 @@ This repository serves as a central hub for storing **checklists** and **prompts
 ```
 ---
 
+**Please note ⚠️**
+- The schema is case-sensitive. Ensure that all keys and values match the required casing exactly.
+- Whenever you refresh this extension, please do refresh the already opened ValueEdge pages
 
 ❤️ We welcome contributions to expand and refine the collection of checklists and promps 😊
