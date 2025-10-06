@@ -239,98 +239,75 @@
   },
   "User Story": {
     "categories": {
-      "Ready": {
+      "Definition of Ready": {
         "checklist": [
-          "Acceptance criteria defined",
-          "Story estimated by team",
-          "Dependencies identified",
-          "Fits in one sprint"
+          "Acceptance criteria are clearly defined",
+          "Description is clearly defined",
+          "Story can be completed within a single sprint?",
+          "Assigned Team Name, Story Points"
         ],
         "phases": [
-          "Ready"
+          "New"
         ]
       },
-      "In Progress": {
+      "Code Quality": {
         "checklist": [
-          "Break down into tasks",
-          "Provide daily updates",
-          "Track against acceptance criteria"
+          "All code modifications undergo a thorough review process"
         ],
         "phases": [
-          "In Progress"
+          "Done"
         ]
       },
-      "CS Ticket analysis": {
+      "Testing": {
         "checklist": [
-          "Retrieved necessary info from CS ticket",
-          "Evaluated scenarios and/or reproduced issue scenarios",
-          "Created RC Patch or Workaround instructions if applicable for customer.",
-          "Updated parent CS Ticket with findings and next steps",
-          "Updated RC Management sheet with RC Patch details if applicable"
+          "All tests passing (unit, integration, and functional)",
+          "Acceptance criteria verified",
+          "Edge cases validated",
+          "No critical or high-priority bugs remain",
+          "Testing scope is clearly outlined and documented"
         ],
         "phases": [
-          "In Progress"
+          "Done"
         ]
       },
-      "POC and/or R&D": {
+      "Documentation": {
         "checklist": [
-          "Finalized the POC and/or R&D Scope",
-          "Completed the POC and/or R&D work",
+          "Relevant documentation updated (including ticket references)",
+          "Tickets created for installer changes, if required",
+          "Tickets created for required translations"
+        ],
+        "phases": [
+          "Done"
+        ]
+      },
+      "Deployment": {
+        "checklist": [
+          "Changes validated in build/installer"
+        ],
+        "phases": [
+          "Done"
+        ]
+      },
+      "POC and/or Analysis": {
+        "checklist": [
+          "Finalized the POC and/or Analysis Scope",
+          "Completed the POC and/or Analysis work",
           "Documented the findings and recommendations and created follow-up stories if needed"
         ],
         "phases": [
           "In Progress"
         ]
       },
-      "Code Review": {
+      "CPE Handling": {
         "checklist": [
-          "Code reviewed and approved",
-          "Meets Definition of Done",
-          "All tests passing"
+          "Retrieved necessary info from CS ticket",
+          "Evaluated scenarios and/or reproduced issue scenarios",
+          "Created RC Patch or Workaround instructions if applicable for customer.",
+          "Updated parent CS Ticket with findings and next steps",
+          "Updated RC Management sheet with RC Patch details if applicable",
+          "Push RC Patch Changes to Master branch if applicable"
         ],
         "phases": [
-          "In Progress"
-        ]
-      },
-      "Implemented - In Testing": {
-        "checklist": [
-          "Test acceptance criteria",
-          "Verify edge cases",
-          "No critical bugs found"
-        ],
-        "phases": [
-          "Implemented"
-        ]
-      },
-      "Tested": {
-        "checklist": [
-          "Document test results",
-          "Get stakeholder sign-off",
-          "Ready for deployment"
-        ],
-        "phases": [
-          "Implemented"
-        ]
-      },
-      "Done": {
-        "checklist": [
-          "Deploy to production",
-          "Demo to stakeholders",
-          "Close with confirmation"
-        ],
-        "phases": [
-          "Done"
-        ]
-      },
-      "Cancelled": {
-        "checklist": [
-          "Document cancellation reason",
-          "Check impact on related stories",
-          "Notify stakeholders"
-        ],
-        "phases": [
-          "New",
-          "Ready",
           "In Progress"
         ]
       }
