@@ -295,7 +295,7 @@
           "Documented the findings and recommendations and created follow-up stories if needed"
         ],
         "phases": [
-          "In Progress"
+          "Done"
         ]
       },
       "CPE Handling": {
@@ -308,7 +308,7 @@
           "Push RC Patch Changes to Master branch if applicable"
         ],
         "phases": [
-          "In Progress"
+          "Done"
         ]
       }
     }
