@@ -212,31 +212,6 @@
       }
     }
   },
-  "Clone": {
-    "categories": {
-      "Tracking": {
-        "checklist": [
-          "Link to original ticket",
-          "Specify target branch/version",
-          "Document clone purpose"
-        ],
-        "phases": [
-          "New",
-          "In Progress"
-        ]
-      },
-      "Done": {
-        "checklist": [
-          "Apply fix to all branches",
-          "Verify no duplicate work",
-          "Update original ticket"
-        ],
-        "phases": [
-          "Done"
-        ]
-      }
-    }
-  },
   "User Story": {
     "categories": {
       "Definition of Ready": {
