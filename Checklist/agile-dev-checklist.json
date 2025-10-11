@@ -14,9 +14,9 @@
       },
       "Proposed": {
         "checklist": [
-          "Review feasibility with team",
-          "Document proposed solution approach",
-          "Estimate effort required"
+          "Review feasibility with team.",
+          "Document proposed solution approach.",
+          "Estimate effort required."
         ],
         "phases": [
           "New"
