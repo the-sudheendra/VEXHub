@@ -150,37 +150,7 @@
   },
   "CPE Incident": {
     "categories": {
-      "Investigation": {
-        "checklist": [
-          "Assess customer impact",
-          "Collect logs/evidence",
-          "Assign support engineer"
-        ],
-        "phases": [
-          "New"
-        ]
-      },
-      "In Progress": {
-        "checklist": [
-          "Replicate the issue",
-          "Suggest workaround if possible",
-          "Engage engineering team"
-        ],
-        "phases": [
-          "In Progress"
-        ]
-      },
-      "Awaiting Decision": {
-        "checklist": [
-          "Provide all info to decision-maker",
-          "Document recommended action",
-          "Set expectations with customer"
-        ],
-        "phases": [
-          "New"
-        ]
-      },
-      "Pending Support": {
+      "Definition of Ready": {
         "checklist": [
           "Acknowledge with support team",
           "Request additional details if needed",
@@ -190,21 +160,15 @@
           "New"
         ]
       },
-      "Fixed": {
+      "Definition of Done": {
         "checklist": [
-          "Deliver fix to customer",
-          "Verify resolution with customer",
-          "Document solution"
-        ],
-        "phases": [
-          "Fixed"
-        ]
-      },
-      "Done": {
-        "checklist": [
-          "Close customer ticket",
-          "Update knowledge base",
-          "Capture lessons learned"
+          "Retrieved necessary info from CS ticket",
+          "Evaluated scenarios and/or reproduced issue scenarios",
+          "Created RC Patch or Workaround instructions if applicable for customer.",
+          "Updated parent CS Ticket with findings and next steps",
+          "Updated RC Management sheet with RC Patch details if applicable",
+          "Push RC Patch Changes to Master branch if applicable",
+          "Update documentation if applicable"
         ],
         "phases": [
           "Done"
@@ -262,29 +226,6 @@
         "phases": [
           "Done"
         ]
-      },
-      "POC and/or Analysis": {
-        "checklist": [
-          "Finalized the POC and/or Analysis Scope",
-          "Completed the POC and/or Analysis work",
-          "Documented the findings and recommendations and created follow-up stories if needed"
-        ],
-        "phases": [
-          "Done"
-        ]
-      },
-      "CPE Handling": {
-        "checklist": [
-          "Retrieved necessary info from CS ticket",
-          "Evaluated scenarios and/or reproduced issue scenarios",
-          "Created RC Patch or Workaround instructions if applicable for customer.",
-          "Updated parent CS Ticket with findings and next steps",
-          "Updated RC Management sheet with RC Patch details if applicable",
-          "Push RC Patch Changes to Master branch if applicable"
-        ],
-        "phases": [
-          "Done"
-        ]
       }
     }
   },
@@ -293,28 +234,19 @@
       "Planning": {
         "checklist": [
           "Define spike goal clearly.",
-          "Set timebox limit",
-          "Identify expected deliverables"
+          "Identify expected deliverables",
+          "Finalized the POC and/or Analysis Scope"
         ],
         "phases": [
           "New"
         ]
       },
-      "Research": {
-        "checklist": [
-          "Document findings as you go",
-          "Identify risks and dependencies",
-          "Stay within timebox"
-        ],
-        "phases": [
-          "In Progress"
-        ]
-      },
       "Done": {
         "checklist": [
-          "Present findings to team",
-          "Document recommendations",
-          "Create follow-up stories if needed"
+          "Create follow-up stories if needed",
+          "Completed the POC and/or Analysis work",
+          "Documented the findings and recommendations",
+          "Identify risks and dependencies"
         ],
         "phases": [
           "Done"
